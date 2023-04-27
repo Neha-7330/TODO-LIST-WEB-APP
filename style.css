@@ -1,0 +1,58 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.todo-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 200px;
+    grid-template-rows: 1fr;
+    gap : 15px;
+    grid-row: 1fr;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    grid-column: span 3;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.input{
+    font-size: 20px;
+    padding :10px 20px;
+}
+
+.add-button {
+    background-color: rgb(2, 214, 2);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.button:hover{
+    border: 3px solid white;
+}
+
+.todo-data{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.delete-button{
+    background-color: rgb(255, 6, 10);
+    color: white;
+    font-size: 20px;
+    border: none;
+    height: 48px;
+    width: 199px;
+}
+
+.align-margine{
+    margin-left: 1px;
+}
